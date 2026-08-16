@@ -1,5 +1,6 @@
 import API from "./api";
 
+
 export const getPendingData = async (
     lottery = "kerala",
     digits = "single"
@@ -12,3 +13,4 @@ export const getPendingData = async (
     return data;
 
 };
+
