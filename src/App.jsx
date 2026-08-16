@@ -5,14 +5,13 @@ import {
     Navigate
 } from "react-router-dom";
 
-import ProductHome from "./pages/ProductHome";
-
-import Dashboard from "./pages/Dashboard";
-import Ranking from "./pages/Ranking";
-import Prediction from "./pages/Prediction";
-import Decision from "./pages/Decision";
-import History from "./pages/History";
-import Settings from "./pages/Settings";
+import ProductHome from "./Pages/ProductHome";
+import Dashboard from "./Pages/Dashboard";
+import Ranking from "./Pages/Ranking";
+import Prediction from "./Pages/Prediction";
+import Decision from "./Pages/Decision";
+import History from "./Pages/History";
+import Settings from "./Pages/Settings";
 
 
 export default function App() {
@@ -24,7 +23,7 @@ export default function App() {
             <Routes>
 
                 {/* ==================================================
-                    MAIN PRODUCT HOME
+                    MAIN HOME
                 ================================================== */}
 
                 <Route
@@ -85,7 +84,7 @@ export default function App() {
 
 
                 {/* ==================================================
-                    BACKWARD COMPATIBILITY
+                    OLD ROUTES → NEW ANALYSE ROUTES
                 ================================================== */}
 
                 <Route
@@ -175,4 +174,3 @@ export default function App() {
     );
 
 }
-
