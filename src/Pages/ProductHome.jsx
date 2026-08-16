@@ -13,7 +13,9 @@ import {
 // LOCAL DEVELOPMENT
 // ================================================================
 
-const FINDIT_URL = "http://127.0.0.1:5500/";
+const FINDIT_URL =
+    import.meta.env.VITE_FINDIT_URL ||
+    "https://find-it-original.onrender.com/";
 
 
 export default function ProductHome() {
