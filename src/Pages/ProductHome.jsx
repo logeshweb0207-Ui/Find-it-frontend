@@ -618,7 +618,7 @@ export default function ProductHome() {
                             font-black
                             sm:text-3xl
                         ">
-                            புதிய பகுப்பாய்வு
+                            GROUP METHOD
                         </h2>
 
 
